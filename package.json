@@ -1,0 +1,24 @@
+{
+  "name": "sit-cama-devsecops",
+  "version": "1.0.0",
+  "description": "Artefactos y Proyecto en General como solución a caso de estudio para Ingenieria de Software 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-295/sit-cama-devsecops.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/David-295/sit-cama-devsecops/issues"
+  },
+  "homepage": "https://github.com/David-295/sit-cama-devsecops#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
