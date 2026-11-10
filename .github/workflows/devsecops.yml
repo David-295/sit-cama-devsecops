@@ -42,7 +42,7 @@ jobs:
       - name: SAST Semgrep
         run: |
           python3 -m pip install semgrep
-          semgrep scan --config auto --error --severity ERROR
+          semgrep scan --config p/javascript --config p/owasp-top-ten --error --severity ERROR
       - name: SCA Trivy
         # TODO: reemplazar el tag por el SHA completo (40 caracteres) del release
         uses: aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25 #v0.36.0
