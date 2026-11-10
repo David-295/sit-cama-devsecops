@@ -1,0 +1,6 @@
+rules:
+  - id: node-sql-injection
+    languages: [javascript]
+    severity: ERROR
+    message: Consulta SQL construida con datos del usuario (inyeccion SQL)
+    pattern-regex: 'SELECT[^\n]*\$\{[^}]*req\.(query|body|params)[^}]*\}'
