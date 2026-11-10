@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/David-295/sit-cama-devsecops#readme",
   "dependencies": {
-    "express": "^5.3.0"
+    "express": "^5.3.0",
+    "lodash": "^4.17.15"
   }
 }
