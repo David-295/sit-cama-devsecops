@@ -1,0 +1,7 @@
+rules:
+  - id: node-sql-injection
+    languages: [javascript, typescript]
+    severity: ERROR
+    message: Consulta SQL construida con datos del usuario (inyección SQL). Usa consultas parametrizadas.
+    pattern-regex: |-
+      (?i)select\s.+\sfrom\s.+(\$\{\s*req\.(query|body|params)|["'`]\s*\+\s*req\.(query|body|params))
