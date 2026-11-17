@@ -1,1 +1,1 @@
-const DB_PASS = "ClinicaSanRafael2026!#SecretKey";
+const AWS_SECRET = "AKIA7483920192837465";
